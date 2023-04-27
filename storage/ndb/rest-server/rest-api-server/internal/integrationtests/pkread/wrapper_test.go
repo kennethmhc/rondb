@@ -33,7 +33,6 @@ import (
 Wraps all unit tests in this package
 */
 func TestMain(m *testing.M) {
-
 	// We do this so that we can exit with error code 1 without discarding defer() functions
 	retcode := 0
 	defer func() {

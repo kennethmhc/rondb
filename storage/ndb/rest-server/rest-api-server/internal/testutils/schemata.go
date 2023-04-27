@@ -110,6 +110,7 @@ func runQueriesWithConnection(sqlQueries string, dbConnection *sql.DB) error {
 }
 
 func SentinelDBExists() bool {
+	// return false
 	dbConn, err := CreateMySQLConnection()
 	if err != nil {
 		return false
